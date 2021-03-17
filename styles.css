@@ -1,0 +1,72 @@
+.area {
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.parent {
+    margin: auto;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 2px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: teal;
+}
+
+.input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    width: 150px;
+    margin-right: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: teal;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    width: 120px;
+    border-style: solid;
+    border-color: teal;
+    border-width: 2px;
+    border-radius: 7px;
+    background: white;
+    font-weight: bold;
+    color: teal;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background: teal;
+    color: white;
+}
+
+.item {
+    display: inline-block;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: teal;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: darkslategray;
+    background: white;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.item-selected {
+    background: teal;
+    color: white;
+}

@@ -2,13 +2,14 @@ var n, word, index, path, items;
 
 buttonGenerate.onclick = function () {
     n = inputNumber.value;
-    n = n > 25 ? 25 : n;
-    n = n < 3 ? 3 : n;
+    n = n > max ? max : n;
+    n = n < min ? min : n;
     n = Math.floor(n);
     inputNumber.value = n;
     divParent.hidden = divTale.hidden = false;
     divParent.innerText = inputText.value = "";
     divParent.style.width = divParent.style.height = 50 * inputNumber.value + "px";
+    divParent.style.height = 50 * inputNumber.value + "px";
     itemsGenerate(n);
 }
 

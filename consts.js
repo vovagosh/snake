@@ -6,4 +6,4 @@ const inputText = document.getElementById("input-text");
 const buttonGenerate = document.getElementById("button-generate");
 const buttonFind = document.getElementById("button-find");
 const min = 5;
-const max = 100;
+const max = 90;
